@@ -17,7 +17,7 @@ def divide(a, b)
 
     break if acc >= substract(a, b)
   end
-  acc + a % b
+  add(acc, a % b)
 end
 
 def substract(a, b)
