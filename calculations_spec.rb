@@ -6,6 +6,8 @@ tests = [
   -> { add(2, 1) == 3 },
   -> { substract(2, 1) == 1 },
   -> { multiply(2, 1) == 2 },
+  -> { multiply(2, 2) == 4 },
+  -> { multiply(3, 12) == 36 },
   -> { divide(2, 1) == 2 }
 ]
 
