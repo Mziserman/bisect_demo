@@ -3,7 +3,7 @@ def add(a, b)
 end
 
 def multiply(a, b)
-  a * b
+  b.times.sum(a)
 end
 
 def divide(a, b)
